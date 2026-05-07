@@ -18,16 +18,13 @@ This is my personal portfolio website built to showcase my skills, projects, edu
 
 ## Live Deployed URL
 
-(Add your Vercel deployment link here after deployment)
-
-Example:
-https://your-portfolio.vercel.app
+https://personal-portifolio-website-phi.vercel.app/
 
 ## Run Project Locally
 
 ### Clone Repository
 
-git clone your-github-repository-link
+git clone https://github.com/23A91A4418/personal_portifolio_website.git
 
 ### Install Dependencies
 

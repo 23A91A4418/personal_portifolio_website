@@ -32,8 +32,8 @@ function Hero() {
         </h2>
 
         <p className="text-lg text-gray-400 mb-8 leading-relaxed">
-          I build intelligent solutions using Machine Learning,
-          Data Science, and Modern AI systems to solve real-world problems.
+          Data Science undergraduate specializing in Machine Learning, Deep Learning,
+          Computer Vision, and scalable AI applications.
         </p>
 
         <div className="flex flex-col md:flex-row gap-4 justify-center">
@@ -46,9 +46,14 @@ function Hero() {
 
           <a
             href="/resume.pdf"
-            className="px-8 py-4 border border-white rounded-xl hover:bg-white hover:text-black transition"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-4 border border-white rounded-xl hover:bg-white hover:text-black transition flex items-center justify-center gap-2"
           >
-            Download Resume
+            <span>Download Resume</span>
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
           </a>
         </div>
       </motion.div>
